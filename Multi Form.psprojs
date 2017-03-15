@@ -14,5 +14,7 @@
     <File>PreReq_MSOnline.psf</File>
     <File>PreReq_SkypeForBusiness.psf</File>
     <File>SelecPreReqExecutionPolicy.psf</File>
+    <File>SelectAllEmailPrimaryAddresses.psf</File>
+    <File>SelectCachedDisplayNames.psf</File>
   </OpenFiles>
 </ProjectState>
