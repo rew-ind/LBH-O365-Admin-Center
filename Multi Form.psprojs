@@ -9,5 +9,10 @@
     <File>CachedCreds.psf</File>
     <File>Startup.pss</File>
     <File>AccessPermissions.psf</File>
+    <File>PreReq_Azure.psf</File>
+    <File>PreReq_ArchType.psf</File>
+    <File>PreReq_MSOnline.psf</File>
+    <File>PreReq_SkypeForBusiness.psf</File>
+    <File>SelecPreReqExecutionPolicy.psf</File>
   </OpenFiles>
 </ProjectState>
