@@ -3,18 +3,20 @@
   <FileID>1c683219-0ccb-4483-8805-eb644b476e75</FileID>
   <OpenFolders />
   <OpenFiles>
-    <File>UpdateCheck.psf</File>
     <File>Main.psf</File>
-    <File>PreRep_SharePoint.psf</File>
-    <File>CachedCreds.psf</File>
     <File>Startup.pss</File>
-    <File>AccessPermissions.psf</File>
-    <File>PreReq_Azure.psf</File>
     <File>PreReq_ArchType.psf</File>
     <File>PreReq_MSOnline.psf</File>
     <File>PreReq_SkypeForBusiness.psf</File>
     <File>SelecPreReqExecutionPolicy.psf</File>
     <File>SelectAllEmailPrimaryAddresses.psf</File>
     <File>SelectCachedDisplayNames.psf</File>
+    <File>SelectCachedDistroGroups.psf</File>
+    <File>SelectCachedPublicFolders.psf</File>
+    <File>SelectCachedUserPrincipalName.psf</File>
+    <File>SelectComplianceCase.psf</File>
+    <File>SelectDataComplianceRule.psf</File>
+    <File>SelectDatePicker.psf</File>
+    <File>SelectDeletedSPOSites.psf</File>
   </OpenFiles>
 </ProjectState>
