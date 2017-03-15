@@ -18,5 +18,8 @@
     <File>SelectDataComplianceRule.psf</File>
     <File>SelectDatePicker.psf</File>
     <File>SelectDeletedSPOSites.psf</File>
+    <File>SelectDLP.psf</File>
+    <File>SelectDistroGroup.psf</File>
+    <File>SelectDisabledTransportRules.psf</File>
   </OpenFiles>
 </ProjectState>
