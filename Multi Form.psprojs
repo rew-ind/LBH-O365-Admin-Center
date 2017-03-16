@@ -21,5 +21,6 @@
     <File>SelectDLP.psf</File>
     <File>SelectDistroGroup.psf</File>
     <File>SelectDisabledTransportRules.psf</File>
+    <File>SelectDistroGroupMembers.psf</File>
   </OpenFiles>
 </ProjectState>
