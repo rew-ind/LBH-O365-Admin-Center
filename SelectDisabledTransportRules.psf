@@ -317,6 +317,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmt7/4i/8fpvMrJzj7cSgAAAAASUVORK5CYII=</Pr
       <Property name="Name">labelSelectTransportRules</Property>
       <Property name="Size">614, 45</Property>
       <Property name="TabIndex">34</Property>
+      <Property name="TextAlign">MiddleLeft</Property>
     </Object>
     <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonOK" children="Controls">
       <Property name="Anchor">Bottom, Right</Property>

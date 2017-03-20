@@ -364,6 +364,7 @@ AAAAAAAAAAAAAAAAAADObf/m3/z/wHq37AVgfk0AAAAASUVORK5CYII=</Preview>
       <Property name="Name">labelSelectDistroGroup</Property>
       <Property name="Size">614, 45</Property>
       <Property name="TabIndex">44</Property>
+      <Property name="TextAlign">MiddleLeft</Property>
     </Object>
     <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonformDistroGroups" children="Controls">
       <Property name="Anchor">Bottom, Right</Property>

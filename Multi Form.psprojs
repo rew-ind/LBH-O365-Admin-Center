@@ -24,5 +24,9 @@
     <File>SelectDistroGroupMembers.psf</File>
     <File>SelectDynamicDistributionGroups.psf</File>
     <File>SelectEmailAddresses.psf</File>
+    <File>SelectEnabledTransportRules.psf</File>
+    <File>SelectExistingMailboxPermissions.psf</File>
+    <File>SelectExternalUsersWithForwarding.psf</File>
+    <File>SelectLicensedUsers.psf</File>
   </OpenFiles>
 </ProjectState>
