@@ -22,11 +22,33 @@
     <File>SelectDistroGroup.psf</File>
     <File>SelectDisabledTransportRules.psf</File>
     <File>SelectDistroGroupMembers.psf</File>
-    <File>SelectDynamicDistributionGroups.psf</File>
     <File>SelectEmailAddresses.psf</File>
     <File>SelectEnabledTransportRules.psf</File>
     <File>SelectExistingMailboxPermissions.psf</File>
     <File>SelectExternalUsersWithForwarding.psf</File>
     <File>SelectLicensedUsers.psf</File>
+    <File>SelectLicenses.psf</File>
+    <File>SelectLocationCode.psf</File>
+    <File>SelectMailboxes.psf</File>
+    <File>SelectMailContact.psf</File>
+    <File>SelectMailEnabledSecurityGroups.psf</File>
+    <File>SelectPFPermissions.psf</File>
+    <File>SelectRetentionPolicy.psf</File>
+    <File>SelectRoomMailbox.psf</File>
+    <File>SelectSharedMailbox.psf</File>
+    <File>SelectSharingPolicy.psf</File>
+    <File>SelectSPOSites.psf</File>
+    <File>SelectTransportRules.psf</File>
+    <File>SelectUnifiedGroupAccessType.psf</File>
+    <File>SelectUnifiedGroupMembers.psf</File>
+    <File>SelectUnifiedGroups.psf</File>
+    <File>SelectUnlicensedUsers.psf</File>
+    <File>SelectUserCalendarPermissions.psf</File>
+    <File>SelectUserFullPermissions.psf</File>
+    <File>SelectUserLicenses.psf</File>
+    <File>SelectUserRecycleBin.psf</File>
+    <File>SelectUsersAnyForwarding.psf</File>
+    <File>SelectUsersForm.psf</File>
+    <File>SelectUsersInternalForwarding.psf</File>
   </OpenFiles>
 </ProjectState>

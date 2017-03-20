@@ -278,6 +278,7 @@ AAAAAElFTkSuQmCC</Preview>
       <Property name="Name">labelSelectlicensedUsers</Property>
       <Property name="Size">614, 45</Property>
       <Property name="TabIndex">64</Property>
+      <Property name="TextAlign">MiddleLeft</Property>
     </Object>
     <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonformlicensedUsers" children="Controls">
       <Property name="Anchor">Bottom, Right</Property>
