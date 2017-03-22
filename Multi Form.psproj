@@ -59,5 +59,6 @@
     <File Build="0" ReferenceFunction="Show-SelectPFPermissions_psf">SelectPFPermissions.psf</File>
     <File Build="0" ReferenceFunction="Show-SelecPreReqExecutionPolicy_psf">SelecPreReqExecutionPolicy.psf</File>
     <File Build="0" ReferenceFunction="Show-CachedCreds_psf">CachedCreds.psf</File>
+    <File Build="0" ReferenceFunction="Show-PreReqTFA_MSONLINE_psf">PreReqTFA_MSONLINE.psf</File>
   </Files>
 </Project>
