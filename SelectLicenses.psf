@@ -331,6 +331,11 @@ $formAvailableLicenses_Load={
 		$AvailableLicensescombo = Get-MsolAccountSku -TenantId $PartnerComboBox.SelectedItem.TenantID | Where-Object "ActiveUnits" -gt 0 | Select-Object -ExpandProperty AccountSkuId
 		Load-ComboBox $comboboxSelectAvailableLicenses $AvailableLicensescombo -DisplayMember AccountSkuId
 	}
+	Else
+	{
+		$AvailableLicensescombo = Get-MsolAccountSku | Where-Object "ActiveUnits" -gt 0 | Select-Object -ExpandProperty AccountSkuId
+		Load-ComboBox $comboboxSelectAvailableLicenses $AvailableLicensescombo -DisplayMember AccountSkuId
+	}
 	
 }
 
@@ -406,7 +411,7 @@ function Load-ComboBox
 }
 #endregion
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>

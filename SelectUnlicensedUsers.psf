@@ -314,6 +314,11 @@ $formUnlicensedUsers_Load = {
 		$UnlicensedUserscombo = Get-MsolUser -TenantId $PartnerComboBox.SelectedItem.TenantID -All | Where-Object { $_.isLicensed -like $False } | Select-Object UserPrincipalName
 		Load-ComboBox $comboboxSelectUnlicensedUsers $UnlicensedUserscombo -DisplayMember UserPrincipalName
 	}
+	Else
+	{
+		$UnlicensedUserscombo = Get-MsolUser -All | Where-Object { $_.isLicensed -like "False" } | Select-Object UserPrincipalName
+		Load-ComboBox $comboboxSelectUnlicensedUsers $UnlicensedUserscombo -DisplayMember UserPrincipalName
+	}
 	
 }
 
@@ -389,7 +394,7 @@ function Load-ComboBox
 }
 #endregion
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>

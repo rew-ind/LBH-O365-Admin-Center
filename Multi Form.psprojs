@@ -6,5 +6,7 @@
     <File>Main.psf</File>
     <File>PreReqTFA_MSONLINE.psf</File>
     <File>PreReq_MSOnline.psf</File>
+    <File>SelectUsersForm.psf</File>
+    <File>SelectUnifiedGroups.psf</File>
   </OpenFiles>
 </ProjectState>

@@ -269,6 +269,11 @@ $formSelectUserRecycleBin_Load={
 		$UserListRecyclecombo = Get-MsolUser -All -TenantId $PartnerComboBox.SelectedItem.TenantID -ReturnDeletedUsers | Select-Object UserPrincipalName
 		Load-ComboBox $comboboxSelectRecycleBin $UserListRecyclecombo -DisplayMember UserPrincipalName
 	}
+	Else
+	{
+		$UserListRecyclecombo = Get-MsolUser -All -ReturnDeletedUsers | Select-Object UserPrincipalName
+		Load-ComboBox $comboboxSelectRecycleBin $UserListRecyclecombo -DisplayMember UserPrincipalName
+	}
 }
 
 #region Control Helper Functions
@@ -345,7 +350,7 @@ function Load-ComboBox
 
 
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>

@@ -300,6 +300,10 @@ $formSelectUser_Load={
 	{
 		Load-ComboBox $comboboxNames $UserListcombo
 	}
+	Else
+	{
+		Load-ComboBox $comboboxNames $UserListcombo
+	}
 	
 	
 }
@@ -376,7 +380,7 @@ function Load-ComboBox
 }
 #endregion
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>

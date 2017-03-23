@@ -308,7 +308,11 @@ $formLicensedUsers_Load = {
 		$licensedUserscombo = Get-MsolUser -TenantId $PartnerComboBox.SelectedItem.TenantID -All | Where-Object { $_.isLicensed -like $True } | Select-Object UserPrincipalName
 		Load-ComboBox $comboboxSelectlicensedUsers $licensedUserscombo -DisplayMember UserPrincipalName
 	}
-	
+	Else
+	{
+		$licensedUserscombo = Get-MsolUser -All | Where-Object { $_.isLicensed -like $True } | Select-Object UserPrincipalName
+		Load-ComboBox $comboboxSelectlicensedUsers $licensedUserscombo -DisplayMember UserPrincipalName
+	}
 }
 
 #region Control Helper Functions
@@ -383,7 +387,7 @@ function Load-ComboBox
 }
 #endregion
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
