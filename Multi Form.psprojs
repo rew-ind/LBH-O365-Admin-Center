@@ -8,5 +8,8 @@
     <File>PreReq_MSOnline.psf</File>
     <File>SelectUsersForm.psf</File>
     <File>SelectUnifiedGroups.psf</File>
+    <File>Globals.ps1</File>
+    <File>Startup.pss</File>
+    <File>UpdateCheck.psf</File>
   </OpenFiles>
 </ProjectState>
