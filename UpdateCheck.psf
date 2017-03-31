@@ -306,12 +306,12 @@ $buttonYes_Click = {
 	#Start-Process -FilePath "https://www.o365admin.center"
 	
 	#Standard
-	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365 Admin Center Standard.msi"
-	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365 Admin Center Standard.exe"
+	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365_Admin_Center_Standard.msi"
+	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365_Admin_Center_Standard.exe"
 	
 	#PREMIUM
-	Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365 Admin Center Premium.msi"
-	Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365 Admin Center Premium.exe" 
+	Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365_Admin_Center_Premium.msi"
+	Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365_Admin_Center_Premium.exe" 
 	
 }
 
@@ -325,7 +325,7 @@ $buttonDontAsk_Click={
 	
 }
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
