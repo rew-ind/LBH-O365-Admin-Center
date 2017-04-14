@@ -3,13 +3,10 @@
   <FileID>1c683219-0ccb-4483-8805-eb644b476e75</FileID>
   <OpenFolders />
   <OpenFiles>
-    <File>Main.psf</File>
     <File>PreReqTFA_MSONLINE.psf</File>
     <File>PreReq_MSOnline.psf</File>
     <File>SelectUsersForm.psf</File>
     <File>SelectUnifiedGroups.psf</File>
     <File>Globals.ps1</File>
-    <File>Startup.pss</File>
-    <File>UpdateCheck.psf</File>
   </OpenFiles>
 </ProjectState>

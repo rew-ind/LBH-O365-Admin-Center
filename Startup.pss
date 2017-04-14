@@ -51,7 +51,7 @@ function Main {
 	
 
 ###UPDATE CHECK
-	$Version = "4.1.0.0"
+	$Version = "4.1.1.0"
 	#Get reg-key to see if update should prompt
 	$UpdateCheck = (Get-ItemProperty 'HKCU:\Software\O365 Admin Center' -Name UpdateCheck).UpdateCheck
 	
