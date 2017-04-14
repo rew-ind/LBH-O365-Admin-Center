@@ -8,5 +8,6 @@
     <File>SelectUsersForm.psf</File>
     <File>SelectUnifiedGroups.psf</File>
     <File>Globals.ps1</File>
+    <File>Main.psf</File>
   </OpenFiles>
 </ProjectState>
