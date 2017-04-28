@@ -307,12 +307,12 @@ $buttonYes_Click = {
 	#Start-Process -FilePath "https://www.o365admin.center"
 	
 	#Standard
-	Start-Process -FilePath https://www.o365admin.center/Paid/O365AdminCenter.zip
+	#Start-Process -FilePath https://www.o365admin.center/Paid/O365AdminCenter.zip
 	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365_Admin_Center_Standard.msi"
 	#Start-Process -FilePath "https://www.o365admin.center/Paid/O365_Admin_Center_Standard.exe"
 	
 	#PREMIUM
-	#Start-Process -FilePath https://www.o365admin.center/Paid/Support/O365AdminCenterPremium.zip
+	Start-Process -FilePath https://www.o365admin.center/Paid/Support/O365AdminCenterPremium.zip
 	#Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365_Admin_Center_Premium.msi"
 	#Start-Process -FilePath "https://www.o365admin.center/Paid/Support/O365_Admin_Center_Premium.exe" 
 	
