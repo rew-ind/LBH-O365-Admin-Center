@@ -11,5 +11,7 @@
     <File>CachedCreds.psf</File>
     <File>Main.psf</File>
     <File>UpdateCheck.psf</File>
+    <File>Startup.pss</File>
+    <File>SelectCachedDisplayNames.psf</File>
   </OpenFiles>
 </ProjectState>
