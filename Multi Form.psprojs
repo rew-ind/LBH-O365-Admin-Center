@@ -9,5 +9,7 @@
     <File>SelectUnifiedGroups.psf</File>
     <File>Globals.ps1</File>
     <File>Main.psf</File>
+    <File>Startup.pss</File>
+    <File>CachedCreds.psf</File>
   </OpenFiles>
 </ProjectState>
